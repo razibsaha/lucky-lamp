@@ -1,0 +1,13 @@
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    width: 220px;
+}
+.product img {
+    border-radius: 8px;
+    margin: 8px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

@@ -1,13 +1,14 @@
 import React from 'react';
+import './Shop.css'
 
 const Shop = () => {
     return (
-        <div>
+        <div className='shop-container'>
             <div className="product-container">
-                Choose your lamps
+                <h1>Choose your lamps</h1>
             </div>
             <div className="cart-container">
-                Order Summary
+                <h2>Order Summary</h2>
             </div>
         </div>
     );

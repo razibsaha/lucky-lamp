@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Poppins:wght@200&display=swap');
+
+.header {
+    font-family: 'Domine', serif;
+    color: aliceblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    background-color: rgb(27, 27, 27);
+}

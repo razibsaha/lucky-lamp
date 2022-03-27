@@ -41,6 +41,7 @@ const Shop = () => {
             <div className="cart-container">
                 <h2>Order Summary</h2>
                 <Cart 
+                chooseAgain={chooseAgain}
                 cart = {cart}
                 ></Cart>
             </div>

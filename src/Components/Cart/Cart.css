@@ -1,4 +1,36 @@
 .cart {
-    background-color: antiquewhite;
+    background-color: rgb(236, 235, 233);
     padding: 20px;
+    margin: 10px;
+}
+
+.lucky {
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.lucky:hover {
+    background-color: #2d3436;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.clear-cart {
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.clear-cart:hover {
+    background-color: #2d3436;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
 }

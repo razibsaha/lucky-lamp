@@ -7,32 +7,28 @@ const Cart = ({cart, chooseAgain}) => {
     const [randomItem, setRandomItem] = useState([])
 
     const choseForYou = (cart) => {
-
         let random = cart[Math.floor(Math.random() * cart.length)];
-
         setRandomItem(random);
-
     }
-
-
-
     
-
     return (
 
     <div>
 
-        <h1 className='cart-tittle'>Your Selected Item Is Here.</h1>
+        <h1 className='cart-tittle'>You Selected</h1>
         
-        {cart.map(product => <Selected product={product} chooseAgain={chooseAgain} choseForYou={choseForYou} ></Selected>)}
+        {cart.map(product => 
+        <Selected 
+        product={product} 
+        chooseAgain={chooseAgain} 
+        choseForYou={choseForYou} 
+        ></Selected>)}
         
         <div className='cart'>
-
-            <button onClick={() => choseForYou(cart)}>Let Us Choose For You</button> <br /> <br />
-
-            <button onClick={() => chooseAgain(cart)}>Choose Again</button>  <RandomItem randomItem={randomItem}></RandomItem>
-
-        </div>
+            <button className='lucky' onClick={() => choseForYou(cart)}>Your Lucky Lamp</button> <br /> <br />
+            <RandomItem randomItem={randomItem}></RandomItem>
+            <button className='clear-cart' onClick={() => chooseAgain(cart)}>Choose Again</button> 
+            </div>
         </div>
 
 

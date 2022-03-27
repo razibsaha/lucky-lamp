@@ -9,10 +9,14 @@ const RandomItem = ({randomItem}) => {
 
         <div className='random-item'>
 
+            <div>
             <img src={randomItem.img} alt="" />
-
+            </div>
+            
+            <div>
             <h1>{randomItem.name}</h1>
-
+            </div>
+            
         </div>
 
     );

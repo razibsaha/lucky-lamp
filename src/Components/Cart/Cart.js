@@ -1,7 +1,9 @@
+import React from 'react'
 import { useState } from 'react';
 import RandomItem from '../RandomItem/RandomItem';
 import Selected from '../Selected/Selected';
 import './Cart.css'
+
 
 const Cart = ({cart, chooseAgain}) => {
     const [randomItem, setRandomItem] = useState([])
@@ -11,7 +13,7 @@ const Cart = ({cart, chooseAgain}) => {
         setRandomItem(random);
     }
     
-    return (
+return (
 
     <div>
 

@@ -16,10 +16,10 @@
 
 
 /* For extremely small screen devices (595px and below) */
-@media only screen and (max-width: 595px) {
+@media only screen and (min-width: 320px) {
     .shop-container {
         display: grid;
-        grid-template-columns: 4fr 1fr;
+        grid-template-columns: 140px 160px;
         margin: 5px;
         padding-left: 0px;
         padding-right: 0px;
@@ -27,18 +27,39 @@
     
     .product-container {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,140px);
         padding-left: 10px;
         padding-right: 0px;
     }
     
     .cart-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1,160px);
+    };
+}
+/* For extremely small screen devices (595px and below) */
+@media only screen and (min-width: 375px) {
+    .shop-container {
+        display: grid;
+        grid-template-columns: 160px 180px;
+        margin: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(1,160px);
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    
+    .cart-container {
+        grid-template-columns: repeat(1,180px);
     };
 }
 
 /* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 425px) {
     .shop-container {
         display: grid;
         grid-template-columns: 2fr 2fr;

@@ -9,7 +9,6 @@ const Selected = ({ product }) => {
             <div className="img">
             <img src={product.img} alt={product.name} />
             </div>
-            
             <div className='details'>
                 <p> <strong>{product.name} </strong></p>
                 <p>$ {product.price}</p></div>

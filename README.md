@@ -1,6 +1,7 @@
 # Lucky Lamps
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ [Live](https://luckylapms.netlify.app/).
 
 * ES6
 * TailwindCSS
+* Hosted in Netlify
